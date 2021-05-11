@@ -1,4 +1,4 @@
-alert("Revisa tu bandeja de entrada para validar el mail")
+
 const loginForm = document.getElementById('login-form');
 loginForm.addEventListener('submit', e => {
     e.preventDefault();
