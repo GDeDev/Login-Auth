@@ -13,6 +13,8 @@ signupForm.addEventListener('submit', e => {
         })
         .then(() => {
             // console.log('success');
+            alert("Revisa tu bandeja de entrada para validar el mail")
+
             location = "login.html";
         }).catch(err => {
             // console.log(err.message);
